@@ -10,6 +10,7 @@ export default function App() {
   function handleLoginSuccess(token) {
     localStorage.setItem('private-jwt', token);
     setToken(token);
+    console.log(token);
     navigate('/posts', { replace: true });
   }
 
