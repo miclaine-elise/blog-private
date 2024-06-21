@@ -29,7 +29,7 @@ export default function Comments({ remount }) {
             console.log(commentId);
             try {
                 const response = await fetch(
-                    `http://localhost:3000/admin/posts/${postId}/${commentId}`,
+                    `https://blog-api-floral-butterfly-9264.fly.dev/admin/posts/${postId}/${commentId}`,
                     {
                         method: 'DELETE',
                         mode: 'cors',

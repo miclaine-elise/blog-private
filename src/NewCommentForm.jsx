@@ -33,7 +33,7 @@ export default function NewCommentForm({ remount }) {
     async function sendComment() {
         try {
             const response = await fetch(
-                `http://localhost:3000/admin/posts/${postId}/comments/new`,
+                `https://blog-api-floral-butterfly-9264.fly.dev/admin/posts/${postId}/comments/new`,
                 {
                     method: 'POST',
                     mode: 'cors',
