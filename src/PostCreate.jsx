@@ -40,7 +40,7 @@ export default function PostCreate() {
     async function sendPost(isPublishedInput) {
         try {
             const response = await fetch(
-                `https://blog-api-floral-butterfly-9264.fly.dev/admin/posts/new`,
+                `http://localhost:3000/admin/posts/new`,
                 {
                     method: 'POST',
                     mode: 'cors',

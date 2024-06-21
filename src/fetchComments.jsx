@@ -9,7 +9,7 @@ export function fetchComments(url, method, body) {
         let ignore = false;
         async function getData() {
             try {
-                const response = await fetch(`https://blog-api-floral-butterfly-9264.fly.dev/admin/${url}`,
+                const response = await fetch(`http://localhost:3000/admin/${url}`,
                     {
                         method: method,
                         mode: 'cors',

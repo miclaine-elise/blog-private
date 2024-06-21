@@ -56,7 +56,7 @@ export default function PostEdit() {
     async function sendPost(isPublishedInput) {
         try {
             const response = await fetch(
-                `https://blog-api-floral-butterfly-9264.fly.dev/admin/posts/${postId}/edit`,
+                `http://localhost:3000/admin/posts/${postId}/edit`,
                 {
                     method: 'PUT',
                     mode: 'cors',

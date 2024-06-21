@@ -36,7 +36,7 @@ export default function Post() {
         async function deletePost() {
             try {
                 const response = await fetch(
-                    `https://blog-api-floral-butterfly-9264.fly.dev/admin/posts/${postId}`,
+                    `http://localhost:3000/admin/posts/${postId}`,
                     {
                         method: 'DELETE',
                         mode: 'cors',

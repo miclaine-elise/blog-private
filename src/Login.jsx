@@ -30,7 +30,7 @@ export default function Login() {
         async function sendLoginPost() {
             try {
                 const response = await fetch(
-                    `https://blog-api-floral-butterfly-9264.fly.dev/admin/login`,
+                    `http://localhost:3000/admin/login`,
                     {
                         method: 'POST',
                         mode: 'cors',
