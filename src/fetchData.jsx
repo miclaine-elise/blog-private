@@ -9,7 +9,7 @@ export function fetchData(url, method, body) {
         let ignore = false;
         async function getData() {
             try {
-                const response = await fetch(`http://localhost:3000/admin${url}`,
+                const response = await fetch(`https://blog-api-production-7765.up.railway.app/admin${url}`,
                     {
                         method: method,
                         mode: 'cors',

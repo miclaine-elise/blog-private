@@ -40,7 +40,7 @@ export default function PostCreate() {
     async function sendPost(isPublishedInput) {
         try {
             const response = await fetch(
-                `http://localhost:3000/admin/posts/new`,
+                `https://blog-api-production-7765.up.railway.app/admin/posts/new`,
                 {
                     method: 'POST',
                     mode: 'cors',

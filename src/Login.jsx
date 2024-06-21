@@ -30,7 +30,7 @@ export default function Login() {
         async function sendLoginPost() {
             try {
                 const response = await fetch(
-                    `http://localhost:3000/admin/login`,
+                    `https://blog-api-production-7765.up.railway.app/admin/login`,
                     {
                         method: 'POST',
                         mode: 'cors',

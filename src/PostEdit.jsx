@@ -56,7 +56,7 @@ export default function PostEdit() {
     async function sendPost(isPublishedInput) {
         try {
             const response = await fetch(
-                `http://localhost:3000/admin/posts/${postId}/edit`,
+                `https://blog-api-production-7765.up.railway.app/admin/posts/${postId}/edit`,
                 {
                     method: 'PUT',
                     mode: 'cors',
